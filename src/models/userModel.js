@@ -15,7 +15,7 @@ const userSchema = new Schema(
     Nacimiento: String,
     Vigencia_actual: String,
     Fecha_proximo: String,
-
+    profilePhotoUrl: String,
   },
   { collection: 'users' }, // Make sure 'clients' is a string in quotes
 
