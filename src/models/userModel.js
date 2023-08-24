@@ -16,6 +16,11 @@ const userSchema = new Schema(
     Vigencia_actual: String,
     Fecha_proximo: String,
     profilePhotoUrl: String,
+    isPay: String,
+    active_noActive: String,
+    type_of_pay: String,
+    credit_card: String,
+    card_number: Number
   },
   { collection: 'users' }, // Make sure 'clients' is a string in quotes
 
