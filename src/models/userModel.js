@@ -20,7 +20,8 @@ const userSchema = new Schema(
     active_noActive: String,
     type_of_pay: String,
     credit_card: String,
-    card_number: Number
+    card_number: Number,
+    Apto_medico: String
   },
   { collection: 'users' }, // Make sure 'clients' is a string in quotes
 
